@@ -6,17 +6,17 @@ AWS Examples in Python
 ### Prequisites
 
 1. Create a new activity in AWS Step Functions
-  1. In the AWS console, browse to Step Functions then Tasks
-  2. On the tasks page, click 'Create new activity' button
-  3. Give your new activity a name, such as 'example1'
-  4. Copy your new activity ARN as we will use this later.
+   1. In the AWS console, browse to Step Functions then Tasks
+   2. On the tasks page, click 'Create new activity' button
+   3. Give your new activity a name, such as 'example1'
+   4. Copy your new activity ARN as we will use this later.
 
 2. Create a new state machine in AWS Step Functions
-  1. In the AWS console, browse to Step Functions dashboard
-  2. Click 'Create a state machine' button
-  3. Give your new state machine a name, such as 'example1'
-  4. Select the 'Custom' blueprint
-  5. Use this code for your state machine, setting the 'Resource' to the ARN created in step 1.
+   1. In the AWS console, browse to Step Functions dashboard
+   2. Click 'Create a state machine' button
+   3. Give your new state machine a name, such as 'example1'
+   4. Select the 'Custom' blueprint
+   5. Use this code for your state machine, setting the 'Resource' to the ARN created in step 1.
 
 ```
 {
@@ -48,8 +48,8 @@ python aws_step_functions_python_demo_1.py
 ```
 
 5. In AWS console for Step Functions, click on dashboard, then click on your example state machine.
-  1. Click 'New execution' button
-  2. Use the default JSON:
+   1. Click 'New execution' button
+   2. Use the default JSON:
 ```
 {
     "Comment": "Insert your JSON here"
